@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">SSD1306HC08</string>
+    <string name="send_bitmap">Send Bitmap</string>
+    <string name="set_contrast">Set Contrast</string>
+</resources>

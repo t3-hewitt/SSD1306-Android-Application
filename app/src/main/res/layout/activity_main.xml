@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="67dp" />
+
+
+    <Button
+        android:id="@+id/setContrastButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/set_contrast" />
+
+    <Button
+        android:id="@+id/openBitmap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/send_bitmap" />
+
+    <com.example.ssd1306hc08.PaintView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@+id/paintView2"
+        />
+
+
+</LinearLayout>
